@@ -1,0 +1,21 @@
+Task 1
+1. Jelaskan apa itu DBT !
+    DBT adalah suatu alat (tool) analisis data yang mampu menyederhanakan dan mengorganisir 
+    transformasi data di dalam data warehouse. Dengan DBT, pengguna dapat melakukan transformasi data 
+    dengan lebih efisien, mengelola kode transformasi, dan membangun struktur data warehouse secara terstruktur.
+
+
+2. Apa keuntungan menggunakan DBT ?
+    - DBT menyediakan pendekatan yang intuitif dan modular dalam merancang transformasi data, mengurangi kompleksitas teknis. 
+    - Otomatisasi yang dimiliki oleh DBT mengizinkan user untuk fokus pada logika bisnis tanpa harus terlalu mendetail pada aspek teknis. 
+    - DBT juga memfasilitasi pelacakan versi transformasi data, menyederhanakan proses manajemen perubahan.
+
+
+3. Jelaskan dependency tree dan versioning pada DBT !
+  - Dependency tree pada DBT adalah representasi grafis dari ketergantungan antar objek transformasi data. 
+    Ini membantu pengguna memahami dan mengorganisir urutan eksekusi transformasi dengan lebih efektif, 
+    terutama ketika satu tabel memerlukan tabel lain untuk proses penghasilan.
+
+  - DBT juga menyertakan fitur versioning, yang memungkinkan pengguna menyimpan versi dari setiap transformasi data. 
+    Dengan demikian, ketika ada perubahan pada transformasi data, pengguna dapat dengan mudah melacak perubahan tersebut dan, 
+    jika diperlukan, kembali ke versi sebelumnya. Hal ini mendukung manajemen perubahan yang aman dan terstruktur.
